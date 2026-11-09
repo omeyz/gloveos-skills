@@ -1,0 +1,7 @@
+interface:
+  display_name: "GloveOS build"
+  short_description: "Build, sign, flash and update GloveOS; push the Glove app over adb"
+  default_prompt: "Use the gloveos-build skill to build or update GloveOS on the Pixel."
+
+policy:
+  allow_implicit_invocation: true

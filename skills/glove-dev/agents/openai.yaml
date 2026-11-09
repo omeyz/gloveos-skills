@@ -1,0 +1,7 @@
+interface:
+  display_name: "Glove harness dev"
+  short_description: "Add tools, change the approval gate or the agent loop in the Glove app"
+  default_prompt: "Use the glove-dev skill to change the Glove harness app."
+
+policy:
+  allow_implicit_invocation: true

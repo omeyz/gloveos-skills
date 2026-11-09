@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "glove": {
+      "type": "http",
+      "url": "http://<phone>.<tailnet>.ts.net:7447/mcp",
+      "headers": {
+        "Authorization": "Bearer ${GLOVE_TOKEN}"
+      }
+    }
+  }
+}

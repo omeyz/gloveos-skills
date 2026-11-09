@@ -1,0 +1,11 @@
+{
+  "name": "gloveos",
+  "displayName": "GloveOS",
+  "version": "0.1.0",
+  "description": "Build, flash and update GloveOS; change the Glove harness app; drive a GloveOS phone through the Glove MCP server",
+  "author": {
+    "name": "Omar's Automations"
+  },
+  "repository": "https://github.com/omeyz/gloveos-skills",
+  "keywords": ["gloveos", "grapheneos", "android", "computer-control", "agent", "mcp"]
+}

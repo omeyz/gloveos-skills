@@ -1,0 +1,16 @@
+{
+  "name": "gloveos-skills",
+  "owner": {
+    "name": "Omar's Automations"
+  },
+  "metadata": {
+    "description": "Skills for building GloveOS and driving a GloveOS phone with the Glove harness"
+  },
+  "plugins": [
+    {
+      "name": "gloveos",
+      "source": "./plugins/gloveos",
+      "description": "Build, flash and update GloveOS; change the Glove harness; drive a GloveOS phone over MCP"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+interface:
+  display_name: "Glove phone"
+  short_description: "Do things on your GloveOS phone through the Glove MCP server"
+  default_prompt: "Use the glove-phone skill to do this on my phone."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "glove"
+      description: "Glove MCP server on the phone (tailnet)"
+      transport: "streamable_http"
+      url: "http://<phone>.<tailnet>.ts.net:7447/mcp"
