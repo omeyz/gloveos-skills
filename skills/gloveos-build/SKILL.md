@@ -39,7 +39,7 @@ tail -f ~/glove/image-release.log
 **Update the phone** without wiping:
 
 ```
-scp fedora:~/glove/grapheneos/releases/N/release-akita-N/akita-ota_update-N.zip releases/N/
+scp buildhost:~/glove/grapheneos/releases/N/release-akita-N/akita-ota_update-N.zip releases/N/
 build/scripts/flash.sh ota releases/N/akita-ota_update-N.zip   # reboots to sideload, pushes, reboots back
 ```
 
